@@ -1,0 +1,37 @@
+		<form class="usa-form">
+		  <label class="usa-label" for="options">How Can We Help You?</label>
+		  <select class="usa-select" name="i-am-a" id="fmi_usertype" onchange="fmi_update_useraction(this);">
+              <option value="">I Am A...</option>
+              <option value="customer">Bank Customer</option>
+              <option value="banker">Banker</option>
+              <option value="consumer">Consumer</option>
+              <option value="business">Small Business Owner</option>
+              <option value="analyst">Analyst/Researcher/Student</option>
+              <option value="legal">Legal Professional</option>
+              <option value="regulator">Bank Regulator</option>
+              <option value="press">Press/Media</option>
+              <option value="vendor">Vendor/Contractor</option>
+              <option value="legislative">Legislative Staff Member</option>
+              <option value="jobseeker">Jobseeker</option>
+              <option value="courtclerk">Court Clerk</option>
+              <option value="prosprobofficer">Prosecutor/Probation Officer</option>
+              <option value="investigator">Investigator</option>
+            </select>
+            <select class="usa-select" name="i-want-to" id="fmi_useraction" onfocus="fmi_useraction_open();" onchange="fmi_useraction_chosen(this)">
+              <option value="">I Want To...</option>
+              <option value="/edie/">Calculate my deposit insurance coverage</option>
+              <option value="/deposit/deposits/">Understand how accounts are insured</option>
+              <option value="/deposit/deposits/video.html">See videos that explain deposit insurance</option>
+              <option value="http://research.fdic.gov/bankfind/">Find basic information about my bank</option>
+              <option value="http://service.govdelivery.com/service/multi_subscribe.html?code=USfdic">Get email notifications of updates</option>
+              <option value="/consumers/banking/facts/">Know what happens when a bank fails</option>
+              <option value="/bank/individual/failed/banklist.html">Find detailed information about a bank failure</option>
+              <option value="https://closedbanks.fdic.gov/funds/index.asp">Search for unclaimed insured deposits</option>
+              <option value="https://ask.fdic.gov/fdicCustomerAssistanceForm">Ask a question about a bank</option>
+              <option value="/consumers/assistance/protection/IdTheft.html">Find out about the latest scams</option>
+              <option value="/consumers/consumer/information/lien/">Get a lien release</option>
+              <option value="/news/news/press/current.html">See the latest FDIC news</option>
+              <option value="https://ask.fdic.gov/fdicCustomerAssistanceForm">File a complaint or ask a question</option>
+            </select>
+            <input class="usa-button" type="submit" value="Get Started">
+		</form>

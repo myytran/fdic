@@ -1,0 +1,71 @@
+/* Tablet and above */
+
+    /* Horizontally center the mege menu expanded area */
+    .usa-megamenu.usa-nav__submenu{
+	    left: 0;
+    }
+    
+    .usa-nav__secondary .usa-form,
+    .usa-nav__secondary .usa-link{
+	    display: none;
+    }
+    /* Mega menu - affecting all breakpoints */
+    /* TO DO: don't affect mobile */
+    header .usa-accordion{
+		/* color: #fff; */
+    }
+    header .usa-nav__primary .usa-nav__primary-item a{
+		/* color: #fff; */
+    }
+    header .usa-nav__primary .usa-nav__primary-item a:hover,
+    header .usa-nav__primary .usa-nav__primary-item a:visited:hover{
+	    text-decoration: underline;
+	}
+
+	/* Header Sticky Nav */
+	header.position-sticky{
+		top:10px; /* just nav, no logo is -119px */
+	}
+
+/* Mobile styling */
+
+	/* Header Sticky Nav */
+	.usa-js-mobile-nav--active header.position-sticky{
+		top:10px;
+	}
+
+    /* Full width menu instead of partial */
+    .usa-js-mobile-nav--active .usa-nav{
+	    width: 100%;
+		/* padding-top: 60px; */ /* cover up "official website of US government */
+		margin-top: 48px; /* still show official website of US government */
+
+    }
+    /* Change overlay color */
+    .usa-overlay{
+	    background: #fff;
+	    z-index: 0;
+    }
+    /* Arrange logo on top */
+    .usa-js-mobile-nav--active .usa-logo{
+	    z-index: 900;
+    }
+    .usa-js-mobile-nav--active .usa-nav__secondary .usa-form,
+	.usa-js-mobile-nav--active .usa-nav__secondary .usa-link{
+	    display: block;
+    }
+    /* Logo */
+    .usa-logo img{
+	    width: 25%;
+    }
+	
+	/* Menu Links */
+	.usa-nav__primary button{
+    	text-transform: uppercase;
+	}
+	
+	/* Social links under search */
+	.usa-social-link{
+    	text-align: center;
+    	padding-top: 16px;
+	}
